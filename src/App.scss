@@ -1,3 +1,8 @@
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
 .App{
   display: flex;
   h1{
@@ -23,12 +28,112 @@
   div{
     div{
       display: flex;
-      margin-left: -1600px;
       width: 200px;
       justify-content: space-between;
+      margin: 0 auto;
       p{
         font-size: 20px;
       }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .container{
+    width: 800px;
+  }
+  .App{
+    h1{
+      font-size: 120px;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+    .right{
+      margin: 0 auto;
+      margin-top: -80px;
+      h2{
+        font-size: 85px;
+      }
+      h3{
+        margin-top: -70px;
+        font-size: 20px;
+      }
+    }
+    hr{
+      display: none;
+    }
+    .left{
+      margin: 0 auto;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .container{
+    width: 500px;
+  }
+  .App{
+    hr{
+      display: none;
+    }
+    .left{
+      margin: 0 auto;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .container{
+    width: 300px;
+  }
+  .App{
+    h1{
+      font-size: 120px;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+    .right{
+      margin: 0 auto;
+      margin-top: -80px;
+      h2{
+        font-size: 85px;
+      }
+      h3{
+        margin-top: -70px;
+        font-size: 20px;
+      }
+    }
+    hr{
+      display: none;
+    }
+    .left{
+      margin: 0 auto;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .container{
+    width: 300px;
+  }
+  .App{
+    h1{
+      font-size: 120px;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+    .right{
+      margin: 0 auto;
+      margin-top: -80px;
+      h2{
+        font-size: 85px;
+      }
+      h3{
+        margin-top: -70px;
+        font-size: 20px;
+      }
+    }
+    hr{
+      display: none;
+    }
+    .left{
+      margin: 0 auto;
     }
   }
 }

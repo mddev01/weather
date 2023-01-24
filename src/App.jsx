@@ -33,7 +33,7 @@ function App() {
   console.log(data);
 
   return (
-    <div className="App">
+    <div className="App container">
       <h1>{data?.main?.temp}<sup>o</sup></h1>
       <div className="right">
       <h2>{data?.name}</h2>
@@ -54,7 +54,7 @@ function App() {
           <p>{data?.wind?.speed}km/h</p>
         </div>
         <div className="rein">
-          <p>Rein</p>
+          <p>Rain</p>
         </div>
       </div>
     </div>
